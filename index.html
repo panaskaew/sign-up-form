@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="left-side">
+            <img src="./images/odin.png" alt="logo" height="20%">
+        </div>
+        <div class="right-side">
+
+        <div class="sign-up-side">
+                <div class="sign-up">
+                    Sign Up
+                </div>
+    
+                <form action="" method="post">
+    <div class="halfdiv">
+                            <div class="inputdiv">
+                                <div>
+                                    <label for="username" class="title">Username</label>
+                                </div>
+                                <!-- FOR is for screenreaders and when you click the text, it also clicks the whole thing -->
+                                <div>
+                                    <input type="text" id="username" name="username"  placeholder="JohnDoe" required>
+                                </div>
+                                <!-- id should match FOR -->
+                                <!-- name is like id but for backend data stuff -->
+                            </div>
+                    
+                            <div class="inputdiv">
+                                <div>
+                                    <label for="email" class="title">Email</label>
+                                </div>
+                                <div>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                            </div>
+    </div>
+                        
+    <div class="halfdiv">
+                                <div class="inputdiv">
+                                    <div>
+                                        <label for="password" class="title">Password</label>
+                                    </div>
+                                    <div>
+                                        <input type="password" id="password" name="password" required>
+                                    </div>
+                                </div>
+        
+                                <div class="inputdiv">
+                                    <div>
+                                        <label for="birthday" class="title">Birthday</label>
+                                    </div>
+                                    <div>
+                                        <input type="date" id="birthday" name="birthday" required>
+                                    </div>
+                                </div>
+    </div>
+    
+    <div class="halfdiv">                    
+                            <div class="inputdiv">
+                                <div>
+                                    <label for="phone" class="title">Phone Number</label>
+                                </div>
+                                <div>
+                                    <input type="tel" id="phone" name="phone" required>
+                                </div>
+                            </div>
+                        
+                            <div class="inputdiv">
+                                <div>
+                                    <label for="gender" class="title">Gender</label>
+                                </div>
+                                <div>
+                                    <select name="gender" id="gender" class="button">
+                                        <option value="male">Male</option>
+                                        <option value="female">Female</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                            </div>
+    </div>
+                        <button class="button">Submit</button>
+                </form>
+                
+                <div class="log-in">
+                    <p>
+                        Already have an account? <a href="">Log in here!</a>
+                    </p>
+                </div>
+</class="sign-up-side">
+        </div>
+        <div class="quotes-side">
+            “I have traveled so much, I have tried much, and I have often tested the mighty. 
+            How will there still be a sun when the wolf has eaten the one that now flies in heaven?”
+            <br>
+            <br>
+            - Odin
+        </div>
+        </div>
+
+
+</body>
+</html>
